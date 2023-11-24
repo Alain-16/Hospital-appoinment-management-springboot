@@ -1,0 +1,11 @@
+.tableContainer{
+    position: relative;
+    left: 250px;
+    bottom: 790px;
+    width: 1000px;
+}
+
+.myNav{
+	position:relative;
+	left:100px;
+}
