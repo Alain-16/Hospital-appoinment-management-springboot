@@ -1,0 +1,47 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEDINOVA</title>
+</head>
+<body>
+<!-- <div class="container" th:fragment="navigation"> -->
+ <main class="cd-main-content" th:fragment="navigation" style="font-size: 20px;">
+    <nav class="cd-side-nav js-cd-side-nav" style="height: 800px;">
+      <ul class="cd-side__list js-cd-side__list">
+        <li class="cd-side__label"><span>Main</span></li>
+        <li class="cd-side__item cd-side__item--has-children cd-side__item--overview js-cd-item--has-children">
+          <a th:href="@{/admin}">Dashboard</a>
+        </li>
+
+        <li class="cd-side__item cd-side__item--has-children cd-side__item--users  js-cd-item--has-children">
+          <a th:href="@{/view_doctor}">Doctors</a>
+        </li>
+    
+        <li class="cd-side__item cd-side__item--has-children cd-side__item--users js-cd-item--has-children">
+          <a th:href="@{/view_patient}">Patients</a> 
+        </li>
+        <li class="cd-side__item cd-side__item--has-children cd-side__item--calender js-cd-item--has-children">
+         <a th:href="@{/view_appointment}">Appointment </a> 
+        </li>
+        <li class="cd-side__item cd-side__item--has-children cd-side__item--calender js-cd-item--has-children">
+         <a th:href="@{/view_schedules}">Schedules</a> 
+        </li>
+      </ul>
+    </nav>
+    <div class="container">
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0">Dashboard</h1>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  </main> 
+</body>
+</html>
