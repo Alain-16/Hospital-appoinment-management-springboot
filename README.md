@@ -46,3 +46,5 @@ Welcome to our Hospital Appointment Management System powered by the Spring fram
     - Customize notifications for various events, such as appointment confirmation, reminders, and post-appointment surveys.
 
 Our Hospital Appointment Management System in Spring is a powerful solution designed to optimize healthcare scheduling, enhance patient engagement, and streamline administrative processes. Embrace efficiency and excellence in healthcare services with our state-of-the-art system.
+![admin dashboard](./img/dash1.png)
+![admin dashboard](./img/dash2.png)
